@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<string.h>
 #include<malloc.h>
-void fun(char *);
+//void fun(char *);
 int main()
 {
 	char c;int last;last=0;
@@ -13,5 +13,6 @@ int main()
     	if(c=='\n')last=1;
     	if(c!='\n')last=0;
     }
-    printf("out");
+    last=EOF;
+    printf("%d",last);
 }
