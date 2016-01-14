@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>				//Wrong code
 #include<malloc.h>
 #include<string.h>
 int nofb(char *);
