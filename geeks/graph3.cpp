@@ -51,7 +51,7 @@ void dijkstra() //Distance from source with O(n^2)
 {
 	for(int i=0;i<V-1;i++)
 	{
-		int u=getmin();       // Get the vertex with minimum destance that has not been included to the tree yet
+		int u=getmin();       // Get the vertex with minimum distance that has not been included to the tree yet
 		set[u]=true;
 		for(int j=0;j<V;j++)
 		{															//change the distances of all vertex connected to u that have not been included
