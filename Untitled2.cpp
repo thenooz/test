@@ -2,6 +2,18 @@
 #include<sstream>
 #include<stdio.h>
 
+
+using namespace std;
+
+class test
+{
+	public:
+		static void func()
+		{
+			cout<<"You have entered the func()";
+		}
+};
+
 using namespace std;
 
 int main()
@@ -15,7 +27,9 @@ int main()
 	cout<<s.str();*/
 	int b=10; /*int c=b++ + ++b + b;
 	cout<<c;*/
-	printf("%d",b++ + ++b + b++);
+	//printf("%d",b++ + ++b + b++);
+	
+	test::func();
 	
 	return 0;
 }
